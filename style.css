@@ -1,0 +1,58 @@
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+body {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/green-slate_1205-377.jpg?1&w=900&t=st=1680172989~exp=1680173589~hmac=52e7c930f8de3f356623b4c09117f8962cc2a049176ee123954a9e066f6940d7");
+  background-size: cover;
+}
+
+h1 {
+	font-size: 70px;
+	margin-top: 40px;
+}
+
+input {
+	padding: 10px;
+	font-size: 24px;
+	border-bottom: 2px solid #ccc;
+	width: 80%;
+}
+
+button {
+	padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+	font-size: 24px;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 40px;
+}
+
+li {
+	font-size: 40px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    border: black;
+}
+
+li .task {
+	flex-grow: 1;
+}
+
+li button {
+	background-color: #f44336;
+	color: white;
+	margin-left: 10px;
+	cursor: pointer;
+}
